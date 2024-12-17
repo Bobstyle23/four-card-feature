@@ -1,0 +1,22 @@
+/* NOTE: color variables */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: 400;
+  line-height: 1;
+  background-color: #fafafa;
+}
+
+/*# sourceMappingURL=main.css.map */
