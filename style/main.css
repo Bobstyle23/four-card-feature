@@ -21,7 +21,9 @@ body {
 }
 
 .header {
-  margin: 8rem auto;
+  margin: 0 auto;
+  margin-bottom: 6.4rem;
+  margin-top: 7.9rem;
   max-width: 54rem;
   text-align: center;
 }
@@ -48,7 +50,7 @@ body {
 
 .main-container {
   max-width: 111rem;
-  margin: 6.2rem auto;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 35rem);
   gap: 2.85rem;
