@@ -15,8 +15,157 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   font-family: 400;
-  line-height: 1;
+  line-height: 1.5;
   background-color: #fafafa;
+  color: #4d4f62;
+}
+
+.header {
+  margin: 8rem auto;
+  max-width: 54rem;
+  text-align: center;
+}
+.header__subtitle {
+  font-size: 3.6rem;
+  font-weight: 200;
+  letter-spacing: 0.025rem;
+  line-height: auto;
+}
+.header__title {
+  font-size: 3.6rem;
+  font-weight: 600;
+  letter-spacing: 0.025rem;
+  line-height: auto;
+  margin-bottom: 1.6rem;
+}
+.header__description {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.5;
+  letter-spacing: 0.01rem;
+  opacity: 50%;
+}
+
+.main-container {
+  max-width: 111rem;
+  margin: 6.2rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 35rem);
+  gap: 2.85rem;
+  position: relative;
+}
+.main-container section {
+  height: 25rem;
+  border-radius: 0.8rem;
+  background-color: #fff;
+  padding: 3rem;
+  box-shadow: 0 1.5rem 3rem -1.1rem rgba(131, 166, 210, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+.main-container section:nth-child(even) {
+  grid-column: 2/3;
+}
+.main-container section:nth-child(1) {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35rem;
+}
+.main-container section:nth-child(3) {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 35rem;
+}
+.main-container .supervisor {
+  border-top: 4px solid #44d3d2;
+}
+.main-container .supervisor__title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: auto;
+  margin-bottom: 1rem;
+}
+.main-container .supervisor__description {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.09px;
+  opacity: 50%;
+  margin-bottom: 3.2rem;
+}
+.main-container .supervisor__icon {
+  width: 6.4rem;
+  height: 6.4rem;
+  align-self: flex-end;
+}
+.main-container .team-builder {
+  border-top: 4px solid #ea5454;
+}
+.main-container .team-builder__title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: auto;
+  margin-bottom: 1rem;
+}
+.main-container .team-builder__description {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.09px;
+  opacity: 50%;
+  margin-bottom: 3.2rem;
+}
+.main-container .team-builder__icon {
+  width: 6.4rem;
+  height: 6.4rem;
+  align-self: flex-end;
+}
+.main-container .calculator {
+  border-top: 4px solid #549ef2;
+}
+.main-container .calculator__title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: auto;
+  margin-bottom: 1rem;
+}
+.main-container .calculator__description {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.09px;
+  opacity: 50%;
+  margin-bottom: 3.2rem;
+}
+.main-container .calculator__icon {
+  width: 6.4rem;
+  height: 6.4rem;
+  align-self: flex-end;
+}
+.main-container .karma {
+  border-top: 4px solid #fcae4a;
+}
+.main-container .karma__title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: auto;
+  margin-bottom: 1rem;
+}
+.main-container .karma__description {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.09px;
+  opacity: 50%;
+  margin-bottom: 3.2rem;
+}
+.main-container .karma__icon {
+  width: 6.4rem;
+  height: 6.4rem;
+  align-self: flex-end;
 }
 
 /*# sourceMappingURL=main.css.map */
