@@ -122,3 +122,44 @@ body {
 /* HACK: small mobiles (320px ~ 480px) */
 /* HACK: large mobiles (481px ~ 767px) */
 /* HACK: tablets (768px ~ 1024px) */
+
+/* NOTE: mobiles */
+@media (max-width: 48em) {
+  .header {
+    padding: 3rem;
+
+    &__title,
+    &__subtitle {
+      font-size: 2.4rem;
+    }
+  }
+
+  .main-container {
+    padding: 0 3rem 3rem 3rem;
+    grid-template-columns: 1fr;
+
+    section {
+      height: auto;
+      &:nth-child(odd) {
+        grid-column: auto;
+        grid-row: auto;
+      }
+    }
+  }
+}
+
+/* NOTE: Tablets */
+
+@media (min-width: 48em) and (max-width: 64em) {
+  .main-container {
+    padding: 0 3rem 3rem 3rem;
+    grid-template-columns: 1fr 1fr;
+
+    section {
+      &:nth-child(odd) {
+        grid-column: auto;
+        grid-row: auto;
+      }
+    }
+  }
+}
